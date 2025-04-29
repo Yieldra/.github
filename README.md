@@ -60,41 +60,54 @@ struct Deposit {
 
 
 ## Installation
-```bash
-1. Clone the repository:
- bash  Copy Download  git clone https://github.com/Yieldra/yieldusd.git
-cd yieldusd
-```
-```bash
-2. Install dependencies:
-bash
-  npm install
-```
-```bash
-3. Configure your environment:
-  cp .env.example .env
-# Edit .env with your settings
-```
-```bash
 
+
+1. Clone the repository:
+   
+    ```bash
+     bash  Copy Download  git clone https://github.com/Yieldra/yieldusd.git
+    cd yieldusd
+    ```
+   
+2. Install dependencies:
+
+    ```bash
+      npm install
+    ```
+    
+3. Configure your environment:
+
+    ```bash
+      cp .env.example .env
+    # Edit .env with your settings
+    ```
+    
 4. Compile smart contracts:
-  npx hardhat compile
-```
-```bash
+
+    ```bash
+      npx hardhat compile
+    ```
+
 5. Deploy to your chosen network:
-  npx hardhat run scripts/deploy.js --network testnet
-```
-```bash
+    
+    ```bash
+      npx hardhat run scripts/deploy.js --network testnet
+    ```
+    
 6. Start the development server:
-  npm run dev
-```
- Deployment
-    ````bash
+    
+    ```bash
+      npm run dev
+    ```
+    
+7. Deployment
+
+    ```bash
     npx hardhat compile
     npx hardhat run scripts/deploy.js --network testnet
     ```
     
-💡 Usage Examples
+## 💡 Usage Examples
 Deposit USDC
     ```bash
     const yieldUSD = new ethers.Contract(
