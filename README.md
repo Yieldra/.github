@@ -109,7 +109,7 @@ struct Deposit {
 ## 💡 Usage Examples
 
 ### Deposit USDC**
-    ```bash
+```bash
     const yieldUSD = new ethers.Contract(
       yieldUSDAddress, 
       ['function deposit(uint256 amount) external'],
@@ -118,22 +118,21 @@ struct Deposit {
     
     await usdc.approve(yieldUSD.address, 1000e6);
     await yieldUSD.deposit(1000e6);
-    
-    ```
+```
 
 ## Check Earned Yield**
-    ```javascript
+```javascript
     function getYield(address user) public view returns (uint256) {
         Deposit memory dep = deposits[user];
         uint256 elapsed = block.timestamp - dep.timestamp;
         return (dep.amount * apy * elapsed) / (10000 * 31536000);
     }
-    ```
+```
     
 ## Withdraw Funds**
-    ```javascript
+```javascript
     await yieldUSD.withdraw();
-    ```
+```
     
 ## 🔒 Security Features
 - **Reentrancy Protection**: All state changes before transfers
