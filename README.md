@@ -42,7 +42,7 @@ The protocol consists of three core components:
 
 ## 📊 Data Structures
 
-### UserStruct
+## UserStruct
 ```javascript
 struct Deposit {
     uint256 amount;     // USDC deposited
@@ -60,7 +60,6 @@ struct Deposit {
 
 
 ## Installation
-
 
 1. Clone the repository:
    
