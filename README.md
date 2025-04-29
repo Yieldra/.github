@@ -43,12 +43,13 @@ The protocol consists of three core components:
 ## 📊 Data Structures
 
 ### UserStruct
-```solidity
+```
 struct Deposit {
     uint256 amount;     // USDC deposited
     uint256 timestamp;  // Last interaction time
     uint256 yieldPaid;  // Cumulative yield earned
 }
+```
 
 🚀 Getting Started
 - **Prerequisites
