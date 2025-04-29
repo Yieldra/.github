@@ -108,7 +108,7 @@ struct Deposit {
     
 ## 💡 Usage Examples
 
-**Deposit USDC**
+### Deposit USDC**
     ```bash
     const yieldUSD = new ethers.Contract(
       yieldUSDAddress, 
@@ -121,7 +121,7 @@ struct Deposit {
     
     ```
 
-**Check Earned Yield**
+## Check Earned Yield**
     ```javascript
     function getYield(address user) public view returns (uint256) {
         Deposit memory dep = deposits[user];
@@ -130,7 +130,7 @@ struct Deposit {
     }
     ```
     
-**Withdraw Funds**
+## Withdraw Funds**
     ```javascript
     await yieldUSD.withdraw();
     ```
