@@ -43,7 +43,7 @@ The protocol consists of three core components:
 ## 📊 Data Structures
 
 ### UserStruct
-```
+```javascript
 struct Deposit {
     uint256 amount;     // USDC deposited
     uint256 timestamp;  // Last interaction time
@@ -58,15 +58,30 @@ struct Deposit {
 - **MetaMask (with testnet USDC)
 - **Git
 
-Installation
-    ```bash
-    git clone https://github.com/yieldusd/protocol
-    cd protocol
-    npm install
-    cp .env.example .env  # Configure your environment
-    ```
 
-Deployment
+## Installation
+1. Clone the repository:
+ bash  Copy Download  git clone https://github.com/Yieldra/yieldusd.git
+cd yieldusd
+
+2. Install dependencies:
+bash
+  npm install
+
+3. Configure your environment:
+  cp .env.example .env
+# Edit .env with your settings
+
+4. Compile smart contracts:
+  npx hardhat compile
+
+5. Deploy to your chosen network:
+  npx hardhat run scripts/deploy.js --network testnet
+
+6. Start the development server:
+  npm run dev
+
+ Deployment
     ````bash
     npx hardhat compile
     npx hardhat run scripts/deploy.js --network testnet
@@ -86,7 +101,7 @@ Deposit USDC
     ```
 
 Check Earned Yield
-    ```bash
+    ```javascript
     function getYield(address user) public view returns (uint256) {
         Deposit memory dep = deposits[user];
         uint256 elapsed = block.timestamp - dep.timestamp;
@@ -95,37 +110,37 @@ Check Earned Yield
     ```
     
 Withdraw Funds
-    ```bash
+    ```javascript
     await yieldUSD.withdraw();
     ```
     
-🔒 Security Features
+## 🔒 Security Features
 - **Reentrancy Protection: All state changes before transfers
 - **Precision Math: 18-decimal fixed-point arithmetic
 - **Input Validation: Strict parameter checks
 - **Time-Locked Admin Functions: For demo parameter changes
 
-⚡ Performance Optimizations
+## ⚡ Performance Optimizations
 - **Single Storage Slot: Packed user data
 - **Minimal External Calls: USDC interactions optimized
 - **Batch Processing: For future scalability
 
-🛣️ Roadmap
+## 🛣️ Roadmap
 - **Q3 2025: Mainnet launch with 3rd-party audit
 - **Q4 2025: DAO governance for APY adjustments
 - **Q1 2026: Cross-chain yield aggregation
 
-👨‍💻 Contributing
+## 👨‍💻 Contributing
 1. Fork the repository
 2. Create feature branch (git checkout -b feature/improvement)
 3. Commit changes (git commit -m 'Add amazing feature')
 4. Push to branch (git push origin feature/improvement)
 5. Open Pull Request
 
-📜 License
+## 📜 License
 MIT License - See LICENSE for details.
 
-🏆 Hackathon Success Notes
+## 🏆 Hackathon Success Notes
 This project excels in hackathon criteria:
     - **Innovation: Simplest yield product in DeFi
     - **Technical Merit: Precise real-time yield math
