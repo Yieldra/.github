@@ -141,9 +141,9 @@ struct Deposit {
 - **Time-Locked Admin Functions**: For demo parameter changes
 
 ## ⚡ Performance Optimizations
-- **Single Storage Slot: Packed user data
-- **Minimal External Calls: USDC interactions optimized
-- **Batch Processing: For future scalability
+- **Single Storage Slot**: Packed user data
+- **Minimal External Calls**: USDC interactions optimized
+- **Batch Processing**: For future scalability
 
 ## 🛣️ Roadmap
 - **Q3 2025**: Mainnet launch with 3rd-party audit
@@ -162,12 +162,11 @@ MIT License - See LICENSE for details.
 
 ## 🏆 Hackathon Success Notes
 This project excels in hackathon criteria:
-    - **Innovation: Simplest yield product in DeFi
-    - **Technical Merit: Precise real-time yield math
-    - **User Experience: One-click deposits/withdrawals
-    - **Demo Readiness: Integrated testnet faucet
-    - **Code Quality: Fully documented with NatSpec
+    - **Innovation**: Simplest yield product in DeFi
+    - **Technical Merit**: Precise real-time yield math
+    - **User Experience**: One-click deposits/withdrawals
+    - **Demo Readiness**: Integrated testnet faucet
+    - **Code Quality**: Fully documented with NatSpec
 
 📮 Contact
 Project Link: https://github.com/yieldusd
-Team Contact: hello@yieldusd.xyz
