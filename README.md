@@ -60,27 +60,34 @@ struct Deposit {
 
 
 ## Installation
+```bash
 1. Clone the repository:
  bash  Copy Download  git clone https://github.com/Yieldra/yieldusd.git
 cd yieldusd
-
+```
+```bash
 2. Install dependencies:
 bash
   npm install
-
+```
+```bash
 3. Configure your environment:
   cp .env.example .env
 # Edit .env with your settings
+```
+```bash
 
 4. Compile smart contracts:
   npx hardhat compile
-
+```
+```bash
 5. Deploy to your chosen network:
   npx hardhat run scripts/deploy.js --network testnet
-
+```
+```bash
 6. Start the development server:
   npm run dev
-
+```
  Deployment
     ````bash
     npx hardhat compile
