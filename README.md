@@ -52,11 +52,11 @@ struct Deposit {
 ```
 
 ## 🚀 Getting Started
-- **Prerequisites
-- **Node.js (v18+)
-- **Hardhat or Foundry
-- **MetaMask (with testnet USDC)
-- **Git
+- **Prerequisites**
+- **Node.js (v18+)**
+- **Hardhat or Foundry**
+- **MetaMask (with testnet USDC)**
+- **Git**
 
 
 ## Installation
@@ -107,7 +107,8 @@ struct Deposit {
     ```
     
 ## 💡 Usage Examples
-Deposit USDC
+
+**Deposit USDC**
     ```bash
     const yieldUSD = new ethers.Contract(
       yieldUSDAddress, 
@@ -117,9 +118,10 @@ Deposit USDC
     
     await usdc.approve(yieldUSD.address, 1000e6);
     await yieldUSD.deposit(1000e6);
+    
     ```
 
-Check Earned Yield
+**Check Earned Yield**
     ```javascript
     function getYield(address user) public view returns (uint256) {
         Deposit memory dep = deposits[user];
@@ -128,16 +130,16 @@ Check Earned Yield
     }
     ```
     
-Withdraw Funds
+**Withdraw Funds**
     ```javascript
     await yieldUSD.withdraw();
     ```
     
 ## 🔒 Security Features
-- **Reentrancy Protection: All state changes before transfers
-- **Precision Math: 18-decimal fixed-point arithmetic
-- **Input Validation: Strict parameter checks
-- **Time-Locked Admin Functions: For demo parameter changes
+- **Reentrancy Protection**: All state changes before transfers
+- **Precision Math**: 18-decimal fixed-point arithmetic
+- **Input Validation**: Strict parameter checks
+- **Time-Locked Admin Functions**: For demo parameter changes
 
 ## ⚡ Performance Optimizations
 - **Single Storage Slot: Packed user data
@@ -145,9 +147,9 @@ Withdraw Funds
 - **Batch Processing: For future scalability
 
 ## 🛣️ Roadmap
-- **Q3 2025: Mainnet launch with 3rd-party audit
-- **Q4 2025: DAO governance for APY adjustments
-- **Q1 2026: Cross-chain yield aggregation
+- **Q3 2025**: Mainnet launch with 3rd-party audit
+- **Q4 2025**: DAO governance for APY adjustments
+- **Q1 2026**: Cross-chain yield aggregation
 
 ## 👨‍💻 Contributing
 1. Fork the repository
