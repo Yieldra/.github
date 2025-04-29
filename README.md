@@ -51,7 +51,7 @@ struct Deposit {
 }
 ```
 
-🚀 Getting Started
+## 🚀 Getting Started
 - **Prerequisites
 - **Node.js (v18+)
 - **Hardhat or Foundry
