@@ -64,7 +64,7 @@ struct Deposit {
 1. Clone the repository:
    
     ```bash
-     bash  Copy Download  git clone https://github.com/Yieldra/frontend.git
+      git clone https://github.com/Yieldra/frontend.git
     cd yieldusd
     ```
    
