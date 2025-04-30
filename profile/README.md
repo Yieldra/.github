@@ -1,4 +1,4 @@
-# 🏆 YieldUSD: Automated Stablecoin Yield Protocol
+# 🏆 Yieldra: RWA-Backed Yield Stablecoin
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Solidity](https://img.shields.io/badge/Solidity-0.8.x-blue)
@@ -9,7 +9,7 @@ YieldUSD is a decentralized protocol that enables users to earn 5% APY on USDC d
 
 ## 🔗 Project Links
 
-- **🌐 Demo App:** [YieldUSD] *(https://yieldra-fe-deployment.vercel.app/)
+- **🌐 Demo App:** [Yieldra] *(https://yieldra-fe-deployment.vercel.app/)
 - **📹 Demo Video:** [YouTube](#) *()
 - **📄 Documentation:** [GitHub Repository](https://github.com/Yieldra)
 - **📝 Smart Contract Address:** `0x6Ac3aB54Dc5019A2e57eCcb214337FF5bbD52897`
@@ -64,7 +64,7 @@ struct Deposit {
 1. Clone the repository:
    
     ```bash
-     bash  Copy Download  git clone https://github.com/Yieldra/yieldusd.git
+     bash  Copy Download  git clone https://github.com/Yieldra/frontend.git
     cd yieldusd
     ```
    
@@ -169,4 +169,4 @@ This project excels in hackathon criteria:
     - **Code Quality**: Fully documented with NatSpec
 
 📮 Contact
-Project Link: https://github.com/yieldusd
+Project Link: https://github.com/Yieldra
