@@ -12,7 +12,7 @@ Yieldra is a decentralized protocol that enables users to earn 5% APY on USDC de
 - **🌐 Demo App:** [Yieldra] *(https://yieldra-fe-deployment.vercel.app/)
 - **📹 Demo Video:** [YouTube](#) *()
 - **📄 Documentation:** [GitHub Repository](https://github.com/Yieldra)
-- **📝 Smart Contract Address:** `0x6Ac3aB54Dc5019A2e57eCcb214337FF5bbD52897`
+- **📝 Smart Contract Address:** `0x70BD5C50b89f064438fE0fb2372188B4577B6837`
 - **🔍 View on BlockScout:** [Deployed Contract on](#)
 
 ## ✨ Key Features
