@@ -5,7 +5,7 @@
 
 ## Overview
 
-YieldUSD is a decentralized protocol that enables users to earn 5% APY on USDC deposits through yUSD tokens, with yield accruing in real-time. Designed for simplicity and security, it offers the most straightforward way to generate passive income in DeFi without lockup periods.
+Yieldra is a decentralized protocol that enables users to earn 5% APY on USDC deposits through yUSD tokens, with yield accruing in real-time. Designed for simplicity and security, it offers the most straightforward way to generate passive income in DeFi without lockup periods.
 
 ## 🔗 Project Links
 
